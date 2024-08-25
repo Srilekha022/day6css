@@ -1,0 +1,117 @@
+ body{
+    background-color: white;
+ }
+ .div1{
+    background-color: rgb(135, 135, 236);
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+ }
+
+ .div2{
+    margin-top: 100px;
+    position: relative;
+    margin-left: 17%;
+    margin-right: 17%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgb(222, 222, 221);
+    background-color: rgb(221, 234, 246);
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+ }
+ img{
+    border-radius: 50%;
+    position: relative;
+    
+ }
+ .div4{
+    position: relative;
+   text-align: right;
+   bottom: 100px;
+ }
+button{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+}
+ 
+ .div{
+    margin-top: 100px;
+    position: relative;
+    margin-left: 17%;
+    margin-right: 17%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgb(222, 222, 221);
+    background-color: rgb(221, 234, 246);
+    padding: 15px;
+    width: 70%;
+
+}
+
+ nav{
+    text-align: center;
+ }
+ a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+ }
+#div2>span{
+    vertical-align: 100px;
+    box-sizing: border-box;
+}
+
+#myskills>table,
+th,
+td{
+    border: 1px solid rgba(193, 191, 191, 0.438);
+    text-align: left;
+}
+
+th,
+td{
+    padding: 10px;
+}
+
+#myskills>table{
+    width: 100%;
+}
+
+#myskills>table>thead:nth-child(1) {
+    background-color: aqua;
+}
+
+.p{
+    width: 300px;
+    background-color: skyblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+}
+form{
+    font-size: 20px;
+}
+form>input,
+label,
+textarea {
+    width: 80%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+}
+input:hover{
+    background-color: green;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color:skyblue;
+    color: white;
+    margin-top: 40px;
+}
+
